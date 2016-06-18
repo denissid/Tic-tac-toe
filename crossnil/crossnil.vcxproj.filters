@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{3517a370-be0e-470a-8aeb-5fa7ba12d799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\exceptions">
+      <UniqueIdentifier>{f745d085-533b-4c83-93bc-ce6658caec59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\ApplicationStrategy">
+      <UniqueIdentifier>{83a510ee-fcf8-4312-b92c-db9cfeaf6155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\GameActors">
+      <UniqueIdentifier>{709484cd-f1ca-470e-9363-619d0dcb0f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\GameLogic">
+      <UniqueIdentifier>{5629dc5b-a59a-403c-a86a-9a47add37e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Banners">
+      <UniqueIdentifier>{b358dbf5-8124-48c9-b45d-c5718c3eff35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Service">
+      <UniqueIdentifier>{6fa3688a-99a4-40fd-9177-5634ebccba0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\HGEHelpers">
+      <UniqueIdentifier>{031e0a99-1efd-41ba-96a5-e5414f294080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\GameField">
+      <UniqueIdentifier>{cec22a04-f308-4dc6-9a89-de3b1cb1cb0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="crossnil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HGEApplication.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="HGEApplicationImpl.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationStrategy\ApplicationStrategy.cpp">
+      <Filter>core\ApplicationStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationStrategy\GameStrategy.cpp">
+      <Filter>core\ApplicationStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationStrategy\MenuStrategy.cpp">
+      <Filter>core\ApplicationStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActors\Computer.cpp">
+      <Filter>core\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActors\CreatorActors.cpp">
+      <Filter>core\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActors\IActor.cpp">
+      <Filter>core\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActors\User.cpp">
+      <Filter>core\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogic\GameJournal.cpp">
+      <Filter>core\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Banners\WinnerBanner.cpp">
+      <Filter>core\Banners</Filter>
+    </ClCompile>
+    <ClCompile Include="Service\Font.cpp">
+      <Filter>core\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="HGEHelpers\GFXWrapper.cpp">
+      <Filter>core\HGEHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="HGEHelpers\HGEWrapper.cpp">
+      <Filter>core\HGEHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="HGEHelpers\SpriteWrapper.cpp">
+      <Filter>core\HGEHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="HGEHelpers\SystemWrapper.cpp">
+      <Filter>core\HGEHelpers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameField\Cell.cpp">
+      <Filter>core\GameField</Filter>
+    </ClCompile>
+    <ClCompile Include="GameField\Field.cpp">
+      <Filter>core\GameField</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="crossnil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HGEApplication.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="HGEApplicationImpl.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\exception.h">
+      <Filter>core\exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationStrategy\ApplicationStrategy.h">
+      <Filter>core\ApplicationStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationStrategy\GameStrategy.h">
+      <Filter>core\ApplicationStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationStrategy\MenuStrategy.h">
+      <Filter>core\ApplicationStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationStrategy\Options.h">
+      <Filter>core\ApplicationStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActors\Computer.h">
+      <Filter>core\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActors\CreatorActors.h">
+      <Filter>core\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActors\IActor.h">
+      <Filter>core\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActors\RemoteUser.h">
+      <Filter>core\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActors\TypeActors.h">
+      <Filter>core\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActors\User.h">
+      <Filter>core\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\GameJournal.h">
+      <Filter>core\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogic\WinnerCombination.h">
+      <Filter>core\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Banners\StartGameBanner.h">
+      <Filter>core\Banners</Filter>
+    </ClInclude>
+    <ClInclude Include="Banners\WinnerBanner.h">
+      <Filter>core\Banners</Filter>
+    </ClInclude>
+    <ClInclude Include="Service\Font.h">
+      <Filter>core\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="HGEHelpers\GFXWrapper.h">
+      <Filter>core\HGEHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HGEHelpers\HGEWrapper.h">
+      <Filter>core\HGEHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HGEHelpers\SpriteWrapper.h">
+      <Filter>core\HGEHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HGEHelpers\SystemWrapper.h">
+      <Filter>core\HGEHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="HGEHelpers\TextureWrapper.h">
+      <Filter>core\HGEHelpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameField\Cell.h">
+      <Filter>core\GameField</Filter>
+    </ClInclude>
+    <ClInclude Include="GameField\Field.h">
+      <Filter>core\GameField</Filter>
+    </ClInclude>
+    <ClInclude Include="GameField\FieldDefines.h">
+      <Filter>core\GameField</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="crossnil.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="crossnil.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
